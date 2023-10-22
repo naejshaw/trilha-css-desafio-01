@@ -21,6 +21,10 @@ section {
   margin: 100px auto;
 }
 
+button{
+    cursor: pointer;
+}
+
 .banner {
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .4)), url('../images/banner.png');
     background-repeat: no-repeat;
@@ -75,9 +79,8 @@ section {
 }
 
 .banner .banner-content button:hover {
-    cursor: pointer;
     background-color: #3BA1CD;
-    color: #1572B7;
+    color: #0c2f4b;
 }
 
 #course-content {
@@ -98,6 +101,10 @@ section {
     padding: 16px;
     border-radius: 100px;
     box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+#course-content .modules-list .module:hover {
+    border: 1px solid #05577a;
 }
 
 #course-content .modules-list .module span {
@@ -129,4 +136,21 @@ section {
   
 #professional-challenges img {
     margin: 32px 0;
+}
+
+footer {
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid #33A8DB80;
+}
+  
+footer .dio-logo {
+    width: 300px;
+}
+  
+footer a {
+    color: #33A8DB;
+    font-weight: bold;
+    text-decoration: none;
 }
