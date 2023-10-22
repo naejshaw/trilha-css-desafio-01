@@ -76,7 +76,6 @@ button{
     background-color: transparent;
     border-image: linear-gradient(#3BA1CD, #1572B7);
     border-image-slice: 10;
-    /* border-radius: 30px; */
     transition: .8s ease;
 }
 
@@ -103,10 +102,10 @@ button{
     padding: 16px;
     border-radius: 100px;
     box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+    cursor: pointer;
 }
 
 #course-content .modules-list .module:hover {
-    cursor: pointer;
     border: 1px solid #05577a;
 }
 
